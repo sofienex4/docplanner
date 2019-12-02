@@ -1,0 +1,269 @@
+
+body {
+  
+  color: #000305;
+  font-size: 87%; /* base font-size = 14px */
+  font-family:Arial, 'Lucida Sans Unicode';
+  line-height: 1.5;
+}
+.navItems{
+    display: flex;
+    text-decoration: none;
+}
+#title{
+    text-align: center ;
+  }  
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+.logo-docplanner { 
+    cursor: pointer;
+}
+.bar__up { 
+    list-style: none;
+}
+.bar__up li { display: inline-block;
+     padding: 0px 20px ;
+}
+.bar__up li a { 
+    transition: all 0.3s ease 0s;
+}
+.bar__up li a:hover {
+    color: #00b39b; 
+}
+
+.barv {
+    color: #00b39b;
+}
+
+.dropdowna {
+    position : relative;
+}
+.dropdown-content{
+  position : absolute;
+  left : 0; 
+  right : 0;
+  display : none;
+}
+.dropdown :hover .dropdown-content{
+  display : block;
+}
+
+.main-menu a:hover {
+    color: 
+    #00b39b;
+} 
+.logo-docplanner {
+    width: 268px;
+    height: 33px;
+}  
+
+#text-container{
+ 	
+  display: flex;  
+}
+.text-p{ 
+  padding: 4%;
+}
+h1 {
+	color: #00b39b;
+} 
+.plat-section{
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    padding: 1.875em 0 .625em;
+    overflow: hidden;
+    margin: 3.125rem auto 5.5rem;
+}
+.width-section{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin : 0 auto;
+}
+.star-section{
+    width : 70%;
+}
+.flag{
+}
+.stats-item{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+    height: 200px;
+    text-align: center;
+    padding: 15px;
+    font-size: .8125em;
+    min-width : 162px;
+}
+.stats-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.box-item{
+    margin: 14px;
+    flex-direction: column;
+}
+
+.stats-item{
+    min-height: 1px;
+    padding: 10px;
+}
+.stats-item p{
+    width: 150px;
+}
+.cel1{
+    /* width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    box-sizing: border-box; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+#paragraphs {
+    display:flex ;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+#left-paragraph {
+    padding : 20px;
+      width : 45% ;
+      background-color: #00b39b; ;
+      border-radius: 10px;
+      overflow : hidden; 
+}
+.btn-image{
+    display : flex
+}
+.laptop{
+    height: 250px ;
+}
+#right-paragraph{
+    width : 45% ;
+    padding : 20px;
+    background-color: blue;
+    border-radius: 10px;
+    overflow : hidden; 
+}
+
+.sousphoto {
+  display:flex;
+  justify-content : space-between ;
+  width: 200 ;
+  height: 32 ;
+}
+.country-select{
+    height: 40px;
+    min-width: 180px;
+}
+
+.brands {
+    margin: 2.5rem auto 3.125rem;
+    display : flex;
+}
+.section__inner {
+    width: 85%;
+    padding: 0 20px;
+    position: relative;
+}
+h1 {
+    font-size: 2.125rem;
+    color: 
+    #00b39b;
+}
+.description{
+    margin : 0;
+    width:40% ;
+}
+.brands__logos {
+    display: flex;
+    flex-wrap: wrap;
+}
+.brands__logos li {
+    font-size: 1rem;
+    display: inline-block;
+    width: 168px;
+    padding: 5px 0;
+}
+.brands-elements{
+    margin-left : 60px
+}
+.element {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn--small {
+    font-size: .625rem;
+    pa
+    dding: 1em 1.5em;
+}
+.barvd{
+display: flex;
+justify-content: space-between;
+font-size: 1.125em;
+font-weight: 40;
+line-height: 1.6666666667;
+padding: 1.1111111111em;
+vertical-align: middle;
+position: relative;
+outline: 0;
+border: 0;
+border-radius: 4px;
+padding: 1.1666666667em 1.5em;
+background: #fff ;
+font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+line-height: 1em;
+
+font-weight: 700;
+letter-spacing: .04em;
+font-size: .75rem;
+text-align: center;
+text-decoration: none!important;
+}
+.barvdb {
+    color:#3d83df;
+}
+.h1 {
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+font-weight: 300;
+letter-spacing: .3px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.surblob {
+    text-align: center;
+
+}
+.blob{
+    width : 85%;
+   display: flex;
+    justify-content: space-around;
+    margin : 0 auto;
+  }
+  .dblock1 {
+    width: 100%;
+    height: 300px
+  }
+  .block1{
+    width: 30%
+  }
+  .finish {
+      text-align : center;
+      padding: 5px;
+  }
